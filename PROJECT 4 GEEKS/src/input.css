@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (min-width: 340px) {
+    .mediabtn {
+        width: 100%;
+    }
+}
+
+@media (min-width:1375px) {
+    .SecondQuery {
+        height: 304px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .ThirdQuery {
+        height: 100%;
+        display: flex;
+        align-self: flex-start;
+    }
+}
